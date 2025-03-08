@@ -163,7 +163,7 @@ namespace BaatCheet
             base.OnPaint(e);
             Graphics g = e.Graphics;
             g.SmoothingMode = SmoothingMode.AntiAlias;
-            int width = 300, height = 400, radius = 30;
+            int width = 300, height = 330, radius = 30;
             int x = 400, y = 160;
             using (GraphicsPath path = CreateRoundedRectangle(x, y, width, height, radius))
             using (Brush fillBrush = new SolidBrush(Color.FromArgb(230, 230, 230)))
@@ -186,6 +186,16 @@ namespace BaatCheet
         }
         private void label1_Click(object sender, EventArgs e)
        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
 
         }
     }
