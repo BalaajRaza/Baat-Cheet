@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\baatcheet\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|solutionrelative:baatcheet\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\baatcheet\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|solutionrelative:baatcheet\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\baatcheet\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|solutionrelative:baatcheet\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\baatcheet\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|solutionrelative:baatcheet\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\baatcheet\\signup.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,24 +23,20 @@
       "RelativeMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|solutionrelative:baatcheet\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|d:\\university\\study stuff\\sem 4\\fse\\baat-cheet\\baatcheet\\baatcheet\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|solutionrelative:baatcheet\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|d:\\university\\study stuff\\sem 4\\fse\\baat-cheet\\baatcheet\\baatcheet\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|solutionrelative:baatcheet\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|d:\\university\\study stuff\\sem 4\\fse\\baat-cheet\\baatcheet\\baatcheet\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|solutionrelative:baatcheet\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|d:\\university\\study stuff\\sem 4\\fse\\baat-cheet\\baatcheet\\baatcheet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\baatcheet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|solutionrelative:baatcheet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\baatcheet\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|solutionrelative:baatcheet\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\baatcheet\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|solutionrelative:baatcheet\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\baatcheet\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|solutionrelative:baatcheet\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\baatcheet\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\baatcheet\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|solutionrelative:baatcheet\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\baatcheet\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|solutionrelative:baatcheet\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,63 +54,52 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DatabaseHelper.cs",
-              "DocumentMoniker": "D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\BaatCheet\\DatabaseHelper.cs",
-              "RelativeDocumentMoniker": "BaatCheet\\DatabaseHelper.cs",
-              "ToolTip": "D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\BaatCheet\\DatabaseHelper.cs",
-              "RelativeToolTip": "BaatCheet\\DatabaseHelper.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T14:19:47.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\BaatCheet\\Program.cs",
-              "RelativeDocumentMoniker": "BaatCheet\\Program.cs",
-              "ToolTip": "D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\BaatCheet\\Program.cs",
-              "RelativeToolTip": "BaatCheet\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T14:11:07.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Login.cs",
               "DocumentMoniker": "D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\BaatCheet\\Login.cs",
               "RelativeDocumentMoniker": "BaatCheet\\Login.cs",
               "ToolTip": "D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\BaatCheet\\Login.cs",
               "RelativeToolTip": "BaatCheet\\Login.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowC0AAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwFUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-09T09:03:49.699Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\BaatCheet\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "BaatCheet\\Login.Designer.cs",
+              "ToolTip": "D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\BaatCheet\\Login.Designer.cs",
+              "RelativeToolTip": "BaatCheet\\Login.Designer.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAAAHQAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T09:03:49.708Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Signup.cs",
               "DocumentMoniker": "D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\BaatCheet\\Signup.cs",
               "RelativeDocumentMoniker": "BaatCheet\\Signup.cs",
               "ToolTip": "D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\BaatCheet\\Signup.cs",
               "RelativeToolTip": "BaatCheet\\Signup.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAgwFIAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-09T09:03:49.724Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Login.cs [Design]",
               "DocumentMoniker": "D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\BaatCheet\\Login.cs",
               "RelativeDocumentMoniker": "BaatCheet\\Login.cs",
@@ -122,20 +111,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Signup.Designer.cs",
               "DocumentMoniker": "D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\BaatCheet\\Signup.Designer.cs",
               "RelativeDocumentMoniker": "BaatCheet\\Signup.Designer.cs",
               "ToolTip": "D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\BaatCheet\\Signup.Designer.cs",
               "RelativeToolTip": "BaatCheet\\Signup.Designer.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAmwJsAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-09T09:03:49.72Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Signup.cs [Design]",
               "DocumentMoniker": "D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\BaatCheet\\Signup.cs",
               "RelativeDocumentMoniker": "BaatCheet\\Signup.cs",
@@ -147,15 +136,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Home.cs",
-              "DocumentMoniker": "D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\BaatCheet\\Home.cs",
-              "RelativeDocumentMoniker": "BaatCheet\\Home.cs",
-              "ToolTip": "D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\BaatCheet\\Home.cs",
-              "RelativeToolTip": "BaatCheet\\Home.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\BaatCheet\\Program.cs",
+              "RelativeDocumentMoniker": "BaatCheet\\Program.cs",
+              "ToolTip": "D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\BaatCheet\\Program.cs",
+              "RelativeToolTip": "BaatCheet\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T09:03:45.595Z",
+              "WhenOpened": "2025-03-09T14:11:07.616Z",
               "EditorCaption": ""
             },
             {
@@ -172,7 +161,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\BaatCheet\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "BaatCheet\\DatabaseHelper.cs",
+              "ToolTip": "D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\BaatCheet\\DatabaseHelper.cs",
+              "RelativeToolTip": "BaatCheet\\DatabaseHelper.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T14:19:47.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "Home.cs",
+              "DocumentMoniker": "D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\BaatCheet\\Home.cs",
+              "RelativeDocumentMoniker": "BaatCheet\\Home.cs",
+              "ToolTip": "D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\BaatCheet\\Home.cs",
+              "RelativeToolTip": "BaatCheet\\Home.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T09:03:45.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Home.Designer.cs",
               "DocumentMoniker": "D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\BaatCheet\\Home.Designer.cs",
               "RelativeDocumentMoniker": "BaatCheet\\Home.Designer.cs",
@@ -181,19 +196,6 @@
               "ViewState": "AgIAABwAAAAAAAAAAADwv9cAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-09T09:03:46.261Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Login.Designer.cs",
-              "DocumentMoniker": "D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\BaatCheet\\Login.Designer.cs",
-              "RelativeDocumentMoniker": "BaatCheet\\Login.Designer.cs",
-              "ToolTip": "D:\\University\\Study Stuff\\SEM 4\\FSE\\Baat-Cheet\\BaatCheet\\BaatCheet\\Login.Designer.cs",
-              "RelativeToolTip": "BaatCheet\\Login.Designer.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAOBiwA0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T09:03:49.708Z",
               "EditorCaption": ""
             }
           ]

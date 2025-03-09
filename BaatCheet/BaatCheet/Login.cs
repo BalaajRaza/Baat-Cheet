@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Drawing;
-using System.Drawing.Drawing2D;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace BaatCheet
 {
@@ -11,173 +10,80 @@ namespace BaatCheet
         {
             InitializeComponent();
             this.DoubleBuffered = true; // Reduce flickering
-            InitializeCustomComponents();
         }
 
-        private void InitializeCustomComponents()
+        private void login_button_Click(object sender, EventArgs e)
         {
-            //// Labels
-            //Label lblUsername = CreateLabel("Username:", 420, 250);
-            //Label lblPassword = CreateLabel("Password:", 420, 320);
-
-            //// Textboxes
-            //TextBox txtUsername = CreateRoundedTextBox(420, 270);
-            //TextBox txtPassword = CreateRoundedTextBox(420, 340);
-            //txtPassword.UseSystemPasswordChar = true;
-
-            //// Login Button
-            Button btnLogin = new Button
-            {
-                Text = "Login",
-                Font = new Font("Arial", 14, FontStyle.Bold),
-                Size = new Size(80, 30),
-                ForeColor = Color.White,
-                Location = new Point(595, 615),  
-                BackColor = Color.FromArgb(51,51,51),
-                FlatStyle = FlatStyle.Flat
-            };
-            btnLogin.FlatAppearance.BorderSize = 0;
-            btnLogin.Click += new EventHandler(btnLogin_Click);
-
-            // Go to Signup Button
-            Button btnGoToSignup = new Button
-            {
-                Text = "Signup",
-                Font = new Font("Arial", 10, FontStyle.Bold),
-                Size = new Size(90, 25),
-                ForeColor = Color.White,
-                Location = new Point(720, 530),
-                BackColor = Color.FromArgb(51,51,51),
-                FlatStyle = FlatStyle.Flat
-            };
-            btnGoToSignup.FlatAppearance.BorderSize = 0;
-            btnGoToSignup.Click += new EventHandler(btnGoToSignup_Click);
-
-            // Add controls
-            //this.Controls.Add(lblUsername);
-            //this.Controls.Add(lblPassword);
-            //this.Controls.Add(txtUsername);
-            //this.Controls.Add(txtPassword);
-            this.Controls.Add(btnLogin);
-            this.Controls.Add(btnGoToSignup);
+            
         }
 
-        private Label CreateLabel(string text, int x, int y)
+        private string ValidateUser(string user, string pass)
         {
-            return new Label
+            try
             {
-                Text = text,
-                Font = new Font("Arial", 10, FontStyle.Bold),
-                Location = new Point(x, y),
-                AutoSize = true,
-                BackColor = Color.Transparent
-            };
-        }
+                string query = "SELECT PasswordHash FROM Users WHERE Username = @username";
+                using (MySqlCommand cmd = new MySqlCommand(query, DatabaseHelper.Connection))
+                {
+                    cmd.Parameters.AddWithValue("@username", user);
+                    object result = cmd.ExecuteScalar(); // Get the password hash from the database
 
-        private TextBox CreateRoundedTextBox(int x, int y)
-        {
-            TextBox textBox = new TextBox
+                    if (result == null)
+                    {
+                        return "User does not exist.";
+                    }
+
+                    string storedPassword = result.ToString();
+
+                    if (storedPassword != pass) // Replace this with proper password hashing later
+                    {
+                        return "Incorrect password.";
+                    }
+
+                    return "success"; // Login successful
+                }
+            }
+            catch (Exception ex)
             {
-                Location = new Point(x, y),
-                Size = new Size(250, 30),
-                BorderStyle = BorderStyle.None,
-                Font = new Font("Arial", 10)
-            };
-
-            Panel panel = new Panel
-            {
-                Location = new Point(x - 5, y - 5),
-                Size = new Size(260, 40),
-                BackColor = Color.White
-            };
-            panel.Paint += (s, e) => DrawRoundedRectangle(e.Graphics, panel.ClientRectangle);
-
-            this.Controls.Add(panel);
-            panel.Controls.Add(textBox);
-            textBox.BringToFront();
-
-            return textBox;
-        }
-
-        private void DrawRoundedRectangle(Graphics g, Rectangle rect)
-        {
-            using (GraphicsPath path = new GraphicsPath())
-            using (Pen borderPen = new Pen(Color.Gray, 2))
-            {
-                int radius = 15;
-                path.AddArc(rect.X, rect.Y, radius, radius, 180, 90);
-                path.AddArc(rect.Right - radius, rect.Y, radius, radius, 270, 90);
-                path.AddArc(rect.Right - radius, rect.Bottom - radius, radius, radius, 0, 90);
-                path.AddArc(rect.X, rect.Bottom - radius, radius, radius, 90, 90);
-                path.CloseFigure();
-                g.SmoothingMode = SmoothingMode.AntiAlias;
-                g.DrawPath(borderPen, path);
+                return "Error: " + ex.Message;
             }
         }
 
-        //protected override void OnPaint(PaintEventArgs e)
-        //{
-        //    base.OnPaint(e);
-        //    Graphics g = e.Graphics;
-        //    g.SmoothingMode = SmoothingMode.AntiAlias;
-        //    int width = 300, height = 320, radius = 30;
-        //    int x = 400, y = 220;
-        //    using (GraphicsPath path = CreateRoundedRectangle(x, y, width, height, radius))
-        //    using (Brush fillBrush = new SolidBrush(Color.FromArgb(230, 230, 230)))
-        //    using (Pen borderPen = new Pen(Color.Gray, 2))
-        //    {
-        //        g.FillPath(fillBrush, path);
-        //        g.DrawPath(borderPen, path);
-        //    }
-        //}
-
-        //private GraphicsPath CreateRoundedRectangle(int x, int y, int width, int height, int radius)
-        //{
-        //    GraphicsPath path = new GraphicsPath();
-        //    path.AddArc(x, y, radius, radius, 180, 90);
-        //    path.AddArc(x + width - radius, y, radius, radius, 270, 90);
-        //    path.AddArc(x + width - radius, y + height - radius, radius, radius, 0, 90);
-        //    path.AddArc(x, y + height - radius, radius, radius, 90, 90);
-        //    path.CloseFigure();
-        //    return path;
-        //}
-
-        private void btnLogin_Click(object sender, EventArgs e)
+        private void signup_button_Click(object sender, EventArgs e)
         {
-            if (IsValidLogin())
-            {
-                MessageBox.Show("Login Successful!");
-                Home homeForm = new Home(); // Create an instance of Home
-                homeForm.Show(); // Show the Home form
-                this.Hide(); // Hide the Login form
-            }
-            else
-            {
-                MessageBox.Show("Invalid credentials, try again.");
-            }
-        }
-
-        private bool IsValidLogin()
-        {
-            // Dummy function, replace with actual login validation
-            return true;
-        }
-
-
-        private void btnGoToSignup_Click(object sender, EventArgs e)
-        {
-            BaatCheet signupForm = new BaatCheet(); // Navigate to Signup Page
+            BaatCheet signupForm = new BaatCheet();
             signupForm.Show();
             this.Hide();
         }
 
         private void LoginForm_Load(object sender, EventArgs e)
         {
-
+            // Any initialization code
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void login_button_Click_1(object sender, EventArgs e)
         {
+            string usernameInput = username.Text.Trim();
+            string passwordInput = password.Text;
+
+            if (string.IsNullOrEmpty(usernameInput) || string.IsNullOrEmpty(passwordInput))
+            {
+                MessageBox.Show("Please enter both username and password.");
+                return;
+            }
+
+            string loginResult = ValidateUser(usernameInput, passwordInput);
+
+            if (loginResult == "success")
+            {
+                MessageBox.Show("Login Successful!");
+                Home homeForm = new Home();
+                homeForm.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show(loginResult);
+            }
 
         }
     }

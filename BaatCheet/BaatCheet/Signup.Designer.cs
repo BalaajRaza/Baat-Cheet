@@ -45,7 +45,7 @@ namespace BaatCheet
             this.textBox1.Location = new System.Drawing.Point(446, 271);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(0, 20);
+            this.textBox1.Size = new System.Drawing.Size(0, 22);
             this.textBox1.TabIndex = 6;
             // 
             // username
@@ -57,7 +57,7 @@ namespace BaatCheet
             this.username.Location = new System.Drawing.Point(477, 367);
             this.username.Margin = new System.Windows.Forms.Padding(4);
             this.username.Name = "username";
-            this.username.Size = new System.Drawing.Size(325, 19);
+            this.username.Size = new System.Drawing.Size(325, 23);
             this.username.TabIndex = 7;
             this.username.TextChanged += new System.EventHandler(this.username_TextChanged);
             // 
@@ -70,7 +70,7 @@ namespace BaatCheet
             this.pass.Location = new System.Drawing.Point(477, 463);
             this.pass.Margin = new System.Windows.Forms.Padding(4);
             this.pass.Name = "pass";
-            this.pass.Size = new System.Drawing.Size(325, 19);
+            this.pass.Size = new System.Drawing.Size(325, 23);
             this.pass.TabIndex = 8;
             this.pass.TextChanged += new System.EventHandler(this.pass_TextChanged);
             // 
@@ -83,7 +83,7 @@ namespace BaatCheet
             this.confirmpass.Location = new System.Drawing.Point(477, 558);
             this.confirmpass.Margin = new System.Windows.Forms.Padding(4);
             this.confirmpass.Name = "confirmpass";
-            this.confirmpass.Size = new System.Drawing.Size(325, 19);
+            this.confirmpass.Size = new System.Drawing.Size(325, 23);
             this.confirmpass.TabIndex = 9;
             this.confirmpass.TextChanged += new System.EventHandler(this.confirmpass_TextChanged);
             // 
@@ -134,7 +134,7 @@ namespace BaatCheet
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "BaatCheet";
-            this.Text = "Form1";
+            this.Text = "BaatCheet-Signup";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -153,7 +153,7 @@ namespace BaatCheet
         {
             // Handle confirm password text changed event
         }
-    
+
 
         #endregion
         private System.Windows.Forms.TextBox textBox1;
@@ -164,6 +164,3 @@ namespace BaatCheet
         private System.Windows.Forms.Button login_redirect;
     }
 }
-    
-
-

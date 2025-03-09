@@ -1,52 +1,4 @@
-﻿//using System;
-//using System.Drawing;
-//using System.Drawing.Drawing2D;
-//using System.Windows.Forms;
-
-//namespace BaatCheet
-//{
-//    public partial class BaatCheet : Form
-//    {
-//        public BaatCheet()
-//        {
-//            InitializeComponent();
-//            this.DoubleBuffered = true; // Reduce flickering
-//        }
-
-//        private void label1_Click(object sender, EventArgs e){}
-
-//        private void textBox2_TextChanged(object sender, EventArgs e){}
-
-//        private void button1_Click(object sender, EventArgs e)
-//        {
-//            //LoginForm loginForm = new LoginForm(); // Create LoginForm instance
-//            //loginForm.Show(); // Show Login Page
-//            //this.Close(); // Hide Signup Page
-//            if (Application.OpenForms["LoginForm"] == null)
-//            {
-//                LoginForm loginForm = new LoginForm();
-//                loginForm.Show();
-//                this.Hide();
-//            }
-//        }
-
-//        private void textBox3_TextChanged(object sender, EventArgs e){}
-
-//        private void button2_Click(object sender, EventArgs e)
-//        {
-//            LoginForm LoginForm = new LoginForm();
-//            LoginForm.Show();
-//            this.Hide();
-//        }
-
-//        private void textBox4_TextChanged(object sender, EventArgs e)
-//        {
-
-//        }
-//    }
-//}
-
-using System;
+﻿using System;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 
@@ -116,4 +68,3 @@ namespace BaatCheet
         }
     }
 }
-
