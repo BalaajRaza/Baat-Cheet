@@ -29,21 +29,23 @@ namespace BaatCheet
             Button btnLogin = new Button
             {
                 Text = "Login",
-                Font = new Font("Arial", 12, FontStyle.Bold),
+                Font = new Font("Arial", 16, FontStyle.Bold),
                 Size = new Size(100, 40),
-                Location = new Point(422, 410),  
+                ForeColor = Color.Gray,
+                Location = new Point(500, 490),  
                 BackColor = Color.White,
                 FlatStyle = FlatStyle.Flat
             };
+            btnLogin.FlatAppearance.BorderSize = 0;
             btnLogin.Click += new EventHandler(btnLogin_Click);
 
             // Go to Signup Button
             Button btnGoToSignup = new Button
             {
                 Text = "Go to Signup",
-                Font = new Font("Arial", 12, FontStyle.Bold),
-                Size = new Size(150, 40),
-                Location = new Point(530, 410),
+                Font = new Font("Arial", 8, FontStyle.Regular),
+                Size = new Size(90, 25),
+                Location = new Point(585, 380),
                 BackColor = Color.White,
                 FlatStyle = FlatStyle.Flat
             };
@@ -116,7 +118,7 @@ namespace BaatCheet
             base.OnPaint(e);
             Graphics g = e.Graphics;
             g.SmoothingMode = SmoothingMode.AntiAlias;
-            int width = 300, height = 250, radius = 30;
+            int width = 300, height = 320, radius = 30;
             int x = 400, y = 220;
             using (GraphicsPath path = CreateRoundedRectangle(x, y, width, height, radius))
             using (Brush fillBrush = new SolidBrush(Color.FromArgb(230, 230, 230)))
@@ -140,19 +142,19 @@ namespace BaatCheet
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            //MessageBox.Show("Login Successful!");
-            // Navigate to Home Page (if you create it)
-            // Check if login is successful (you can add your own logic)
             if (IsValidLogin())
             {
                 MessageBox.Show("Login Successful!");
-                Application.Exit(); // This will close the entire application
+                Home homeForm = new Home(); // Create an instance of Home
+                homeForm.Show(); // Show the Home form
+                this.Hide(); // Hide the Login form
             }
             else
             {
                 MessageBox.Show("Invalid credentials, try again.");
             }
         }
+
         private bool IsValidLogin()
         {
             // Dummy function, replace with actual login validation

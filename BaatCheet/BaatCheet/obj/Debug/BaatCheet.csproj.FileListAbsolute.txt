@@ -19,3 +19,6 @@ C:\Users\baqir\OneDrive\Documents\GitHub\Baat-Cheet\BaatCheet\BaatCheet\obj\Debu
 C:\Users\baqir\OneDrive\Documents\GitHub\Baat-Cheet\BaatCheet\BaatCheet\obj\Debug\BaatCheet.exe
 C:\Users\baqir\OneDrive\Documents\GitHub\Baat-Cheet\BaatCheet\BaatCheet\obj\Debug\BaatCheet.pdb
 C:\Users\HP\OneDrive\Desktop\Sem 4\FundOfSoftEng\Baat-Cheet\BaatCheet\BaatCheet\obj\Debug\BaatCheet.LoginForm.resources
+C:\Users\baqir\OneDrive\Documents\GitHub\Baat-Cheet\BaatCheet\BaatCheet\obj\Debug\BaatCheet.LoginForm.resources
+C:\Users\baqir\OneDrive\Documents\GitHub\Baat-Cheet\BaatCheet\BaatCheet\obj\Debug\BaatCheet.Home.resources
+C:\Users\HP\OneDrive\Desktop\Sem 4\FundOfSoftEng\Baat-Cheet\BaatCheet\BaatCheet\obj\Debug\BaatCheet.Home.resources

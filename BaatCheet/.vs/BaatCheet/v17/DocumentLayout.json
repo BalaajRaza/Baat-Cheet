@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\baatcheet\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|solutionrelative:baatcheet\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\baatcheet\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|solutionrelative:baatcheet\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|c:\\users\\hp\\onedrive\\desktop\\sem 4\\fundofsofteng\\baat-cheet\\baatcheet\\baatcheet\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|solutionrelative:baatcheet\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\baatcheet\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|solutionrelative:baatcheet\\home.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\baatcheet\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|solutionrelative:baatcheet\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\baatcheet\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,12 +31,12 @@
       "RelativeMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|solutionrelative:baatcheet\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\baatcheet\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|solutionrelative:baatcheet\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\baatcheet\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|solutionrelative:baatcheet\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|c:\\users\\hp\\onedrive\\desktop\\sem 4\\fundofsofteng\\baat-cheet\\baatcheet\\baatcheet\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|solutionrelative:baatcheet\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\baatcheet\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F49DCEA-DA03-4E6F-9DD4-3F8AD45FEA62}|BaatCheet\\BaatCheet.csproj|solutionrelative:baatcheet\\login.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,83 +46,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\BaatCheet\\Login.cs",
-              "RelativeDocumentMoniker": "BaatCheet\\Login.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\BaatCheet\\Login.cs",
-              "RelativeToolTip": "BaatCheet\\Login.cs",
-              "ViewState": "AgIAAIIAAAAAAAAAAAAgwJYAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Home.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\BaatCheet\\Home.cs",
+              "RelativeDocumentMoniker": "BaatCheet\\Home.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\BaatCheet\\Home.cs",
+              "RelativeToolTip": "BaatCheet\\Home.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T04:30:13.19Z",
+              "WhenOpened": "2025-03-09T05:58:03.987Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\BaatCheet\\Login.Designer.cs",
-              "RelativeDocumentMoniker": "BaatCheet\\Login.Designer.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\BaatCheet\\Login.Designer.cs",
-              "RelativeToolTip": "BaatCheet\\Login.Designer.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAIwEIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T04:26:17.571Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\BaatCheet\\Login.cs",
-              "RelativeDocumentMoniker": "BaatCheet\\Login.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\BaatCheet\\Login.cs [Design]",
-              "RelativeToolTip": "BaatCheet\\Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T04:24:55.983Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Signup.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\BaatCheet\\Signup.Designer.cs",
-              "RelativeDocumentMoniker": "BaatCheet\\Signup.Designer.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\BaatCheet\\Signup.Designer.cs",
-              "RelativeToolTip": "BaatCheet\\Signup.Designer.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAuwAsAAAAWAAAAAAAAAA==",
+              "Title": "Home.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\BaatCheet\\Home.Designer.cs",
+              "RelativeDocumentMoniker": "BaatCheet\\Home.Designer.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\BaatCheet\\Home.Designer.cs",
+              "RelativeToolTip": "BaatCheet\\Home.Designer.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA0AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T19:12:02.253Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Signup.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\BaatCheet\\Signup.cs",
-              "RelativeDocumentMoniker": "BaatCheet\\Signup.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\BaatCheet\\Signup.cs",
-              "RelativeToolTip": "BaatCheet\\Signup.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAkwIsAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T18:50:52.931Z",
+              "WhenOpened": "2025-03-09T05:57:54.34Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\BaatCheet\\Home.cs",
+              "RelativeDocumentMoniker": "BaatCheet\\Home.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\BaatCheet\\Home.cs [Design]",
+              "RelativeToolTip": "BaatCheet\\Home.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T05:57:44.611Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\BaatCheet\\Login.cs",
+              "RelativeDocumentMoniker": "BaatCheet\\Login.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\BaatCheet\\Login.cs",
+              "RelativeToolTip": "BaatCheet\\Login.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAkwJwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T04:30:13.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\BaatCheet\\Login.Designer.cs",
+              "RelativeDocumentMoniker": "BaatCheet\\Login.Designer.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\BaatCheet\\Login.Designer.cs",
+              "RelativeToolTip": "BaatCheet\\Login.Designer.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T04:26:17.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\BaatCheet\\Login.cs",
+              "RelativeDocumentMoniker": "BaatCheet\\Login.cs",
+              "ToolTip": "C:\\Users\\baqir\\OneDrive\\Documents\\GitHub\\Baat-Cheet\\BaatCheet\\BaatCheet\\Login.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\baqir\\OneDrive\\Documents\\GitHub\\Baat-Cheet\\BaatCheet\\BaatCheet\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T04:24:55.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Signup.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\BaatCheet\\Signup.Designer.cs",
+              "RelativeDocumentMoniker": "BaatCheet\\Signup.Designer.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\BaatCheet\\Signup.Designer.cs",
+              "RelativeToolTip": "BaatCheet\\Signup.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T19:12:02.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Signup.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\BaatCheet\\Signup.cs",
+              "RelativeDocumentMoniker": "BaatCheet\\Signup.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\BaatCheet\\Signup.cs",
+              "RelativeToolTip": "BaatCheet\\Signup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T18:50:52.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Signup.cs [Design]",
               "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\BaatCheet\\Signup.cs",
               "RelativeDocumentMoniker": "BaatCheet\\Signup.cs",
-              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Sem 4\\FundOfSoftEng\\Baat-Cheet\\BaatCheet\\BaatCheet\\Signup.cs [Design]",
-              "RelativeToolTip": "BaatCheet\\Signup.cs [Design]",
+              "ToolTip": "C:\\Users\\baqir\\OneDrive\\Documents\\GitHub\\Baat-Cheet\\BaatCheet\\BaatCheet\\Signup.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\baqir\\OneDrive\\Documents\\GitHub\\Baat-Cheet\\BaatCheet\\BaatCheet\\Signup.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T18:27:31.122Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-07T18:27:31.122Z"
             }
           ]
         }
