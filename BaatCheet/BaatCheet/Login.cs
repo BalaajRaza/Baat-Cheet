@@ -16,24 +16,24 @@ namespace BaatCheet
 
         private void InitializeCustomComponents()
         {
-            // Labels
-            Label lblUsername = CreateLabel("Username:", 420, 250);
-            Label lblPassword = CreateLabel("Password:", 420, 320);
+            //// Labels
+            //Label lblUsername = CreateLabel("Username:", 420, 250);
+            //Label lblPassword = CreateLabel("Password:", 420, 320);
 
-            // Textboxes
-            TextBox txtUsername = CreateRoundedTextBox(420, 270);
-            TextBox txtPassword = CreateRoundedTextBox(420, 340);
-            txtPassword.UseSystemPasswordChar = true;
+            //// Textboxes
+            //TextBox txtUsername = CreateRoundedTextBox(420, 270);
+            //TextBox txtPassword = CreateRoundedTextBox(420, 340);
+            //txtPassword.UseSystemPasswordChar = true;
 
-            // Login Button
+            //// Login Button
             Button btnLogin = new Button
             {
                 Text = "Login",
-                Font = new Font("Arial", 16, FontStyle.Bold),
-                Size = new Size(100, 40),
-                ForeColor = Color.Gray,
-                Location = new Point(500, 490),  
-                BackColor = Color.White,
+                Font = new Font("Arial", 14, FontStyle.Bold),
+                Size = new Size(80, 30),
+                ForeColor = Color.White,
+                Location = new Point(595, 615),  
+                BackColor = Color.FromArgb(51,51,51),
                 FlatStyle = FlatStyle.Flat
             };
             btnLogin.FlatAppearance.BorderSize = 0;
@@ -42,20 +42,22 @@ namespace BaatCheet
             // Go to Signup Button
             Button btnGoToSignup = new Button
             {
-                Text = "Go to Signup",
-                Font = new Font("Arial", 8, FontStyle.Regular),
+                Text = "Signup",
+                Font = new Font("Arial", 10, FontStyle.Bold),
                 Size = new Size(90, 25),
-                Location = new Point(585, 380),
-                BackColor = Color.White,
+                ForeColor = Color.White,
+                Location = new Point(720, 530),
+                BackColor = Color.FromArgb(51,51,51),
                 FlatStyle = FlatStyle.Flat
             };
+            btnGoToSignup.FlatAppearance.BorderSize = 0;
             btnGoToSignup.Click += new EventHandler(btnGoToSignup_Click);
 
             // Add controls
-            this.Controls.Add(lblUsername);
-            this.Controls.Add(lblPassword);
-            this.Controls.Add(txtUsername);
-            this.Controls.Add(txtPassword);
+            //this.Controls.Add(lblUsername);
+            //this.Controls.Add(lblPassword);
+            //this.Controls.Add(txtUsername);
+            //this.Controls.Add(txtPassword);
             this.Controls.Add(btnLogin);
             this.Controls.Add(btnGoToSignup);
         }
@@ -113,32 +115,32 @@ namespace BaatCheet
             }
         }
 
-        protected override void OnPaint(PaintEventArgs e)
-        {
-            base.OnPaint(e);
-            Graphics g = e.Graphics;
-            g.SmoothingMode = SmoothingMode.AntiAlias;
-            int width = 300, height = 320, radius = 30;
-            int x = 400, y = 220;
-            using (GraphicsPath path = CreateRoundedRectangle(x, y, width, height, radius))
-            using (Brush fillBrush = new SolidBrush(Color.FromArgb(230, 230, 230)))
-            using (Pen borderPen = new Pen(Color.Gray, 2))
-            {
-                g.FillPath(fillBrush, path);
-                g.DrawPath(borderPen, path);
-            }
-        }
+        //protected override void OnPaint(PaintEventArgs e)
+        //{
+        //    base.OnPaint(e);
+        //    Graphics g = e.Graphics;
+        //    g.SmoothingMode = SmoothingMode.AntiAlias;
+        //    int width = 300, height = 320, radius = 30;
+        //    int x = 400, y = 220;
+        //    using (GraphicsPath path = CreateRoundedRectangle(x, y, width, height, radius))
+        //    using (Brush fillBrush = new SolidBrush(Color.FromArgb(230, 230, 230)))
+        //    using (Pen borderPen = new Pen(Color.Gray, 2))
+        //    {
+        //        g.FillPath(fillBrush, path);
+        //        g.DrawPath(borderPen, path);
+        //    }
+        //}
 
-        private GraphicsPath CreateRoundedRectangle(int x, int y, int width, int height, int radius)
-        {
-            GraphicsPath path = new GraphicsPath();
-            path.AddArc(x, y, radius, radius, 180, 90);
-            path.AddArc(x + width - radius, y, radius, radius, 270, 90);
-            path.AddArc(x + width - radius, y + height - radius, radius, radius, 0, 90);
-            path.AddArc(x, y + height - radius, radius, radius, 90, 90);
-            path.CloseFigure();
-            return path;
-        }
+        //private GraphicsPath CreateRoundedRectangle(int x, int y, int width, int height, int radius)
+        //{
+        //    GraphicsPath path = new GraphicsPath();
+        //    path.AddArc(x, y, radius, radius, 180, 90);
+        //    path.AddArc(x + width - radius, y, radius, radius, 270, 90);
+        //    path.AddArc(x + width - radius, y + height - radius, radius, radius, 0, 90);
+        //    path.AddArc(x, y + height - radius, radius, radius, 90, 90);
+        //    path.CloseFigure();
+        //    return path;
+        //}
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
