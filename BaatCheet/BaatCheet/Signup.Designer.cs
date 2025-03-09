@@ -1,4 +1,6 @@
-﻿namespace BaatCheet
+﻿using System;
+
+namespace BaatCheet
 {
     partial class BaatCheet
     {
@@ -30,11 +32,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BaatCheet));
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.username = new System.Windows.Forms.TextBox();
+            this.pass = new System.Windows.Forms.TextBox();
+            this.confirmpass = new System.Windows.Forms.TextBox();
+            this.signup_button = new System.Windows.Forms.Button();
+            this.login_redirect = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -43,77 +45,79 @@
             this.textBox1.Location = new System.Drawing.Point(446, 271);
             this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(0, 22);
+            this.textBox1.Size = new System.Drawing.Size(0, 20);
             this.textBox1.TabIndex = 6;
             // 
-            // textBox2
+            // username
             // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBox2.ForeColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(477, 367);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(325, 23);
-            this.textBox2.TabIndex = 7;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.username.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.username.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.username.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.username.ForeColor = System.Drawing.Color.White;
+            this.username.Location = new System.Drawing.Point(477, 367);
+            this.username.Margin = new System.Windows.Forms.Padding(4);
+            this.username.Name = "username";
+            this.username.Size = new System.Drawing.Size(325, 19);
+            this.username.TabIndex = 7;
+            this.username.TextChanged += new System.EventHandler(this.username_TextChanged);
             // 
-            // textBox3
+            // pass
             // 
-            this.textBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBox3.ForeColor = System.Drawing.Color.White;
-            this.textBox3.Location = new System.Drawing.Point(477, 463);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(325, 23);
-            this.textBox3.TabIndex = 8;
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
+            this.pass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.pass.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.pass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.pass.ForeColor = System.Drawing.Color.White;
+            this.pass.Location = new System.Drawing.Point(477, 463);
+            this.pass.Margin = new System.Windows.Forms.Padding(4);
+            this.pass.Name = "pass";
+            this.pass.Size = new System.Drawing.Size(325, 19);
+            this.pass.TabIndex = 8;
+            this.pass.TextChanged += new System.EventHandler(this.pass_TextChanged);
             // 
-            // textBox4
+            // confirmpass
             // 
-            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBox4.ForeColor = System.Drawing.Color.White;
-            this.textBox4.Location = new System.Drawing.Point(477, 558);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(325, 23);
-            this.textBox4.TabIndex = 9;
+            this.confirmpass.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.confirmpass.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.confirmpass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.confirmpass.ForeColor = System.Drawing.Color.White;
+            this.confirmpass.Location = new System.Drawing.Point(477, 558);
+            this.confirmpass.Margin = new System.Windows.Forms.Padding(4);
+            this.confirmpass.Name = "confirmpass";
+            this.confirmpass.Size = new System.Drawing.Size(325, 19);
+            this.confirmpass.TabIndex = 9;
+            this.confirmpass.TextChanged += new System.EventHandler(this.confirmpass_TextChanged);
             // 
-            // button1
+            // signup_button
             // 
-            this.button1.AutoEllipsis = true;
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(584, 639);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(109, 35);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Signup";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.signup_button.AutoEllipsis = true;
+            this.signup_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.signup_button.FlatAppearance.BorderSize = 0;
+            this.signup_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.signup_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.signup_button.ForeColor = System.Drawing.Color.White;
+            this.signup_button.Location = new System.Drawing.Point(584, 639);
+            this.signup_button.Margin = new System.Windows.Forms.Padding(4);
+            this.signup_button.Name = "signup_button";
+            this.signup_button.Size = new System.Drawing.Size(109, 35);
+            this.signup_button.TabIndex = 10;
+            this.signup_button.Text = "Signup";
+            this.signup_button.UseVisualStyleBackColor = false;
+            this.signup_button.Click += new System.EventHandler(this.signup_button_Click);
             // 
-            // button2
+            // login_redirect
             // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(448, 710);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(394, 31);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "Already have an account";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.login_redirect.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
+            this.login_redirect.FlatAppearance.BorderSize = 0;
+            this.login_redirect.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.login_redirect.Font = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.login_redirect.ForeColor = System.Drawing.Color.White;
+            this.login_redirect.Location = new System.Drawing.Point(448, 710);
+            this.login_redirect.Name = "login_redirect";
+            this.login_redirect.Size = new System.Drawing.Size(394, 31);
+            this.login_redirect.TabIndex = 11;
+            this.login_redirect.Text = "Already have an account";
+            this.login_redirect.UseVisualStyleBackColor = false;
+            this.login_redirect.Click += new System.EventHandler(this.login_redirect_Click);
             // 
             // BaatCheet
             // 
@@ -121,29 +125,45 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1202, 753);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.login_redirect);
+            this.Controls.Add(this.signup_button);
+            this.Controls.Add(this.confirmpass);
+            this.Controls.Add(this.pass);
+            this.Controls.Add(this.username);
             this.Controls.Add(this.textBox1);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "BaatCheet";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
+        private void username_TextChanged(object sender, EventArgs e)
+        {
+            // Handle username text changed event
+        }
+
+        private void pass_TextChanged(object sender, EventArgs e)
+        {
+            // Handle password text changed event
+        }
+
+        private void confirmpass_TextChanged(object sender, EventArgs e)
+        {
+            // Handle confirm password text changed event
+        }
+    
 
         #endregion
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox username;
+        private System.Windows.Forms.TextBox pass;
+        private System.Windows.Forms.TextBox confirmpass;
+        private System.Windows.Forms.Button signup_button;
+        private System.Windows.Forms.Button login_redirect;
     }
 }
+    
 
 

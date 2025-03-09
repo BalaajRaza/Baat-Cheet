@@ -16,6 +16,7 @@ namespace BaatCheet
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            DatabaseHelper.InitializeConnection();
             Application.Run(new BaatCheet());
         }
     }
