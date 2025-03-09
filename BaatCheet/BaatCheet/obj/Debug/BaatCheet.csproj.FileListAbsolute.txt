@@ -18,3 +18,22 @@ C:\Users\baqir\OneDrive\Documents\GitHub\Baat-Cheet\BaatCheet\BaatCheet\obj\Debu
 C:\Users\baqir\OneDrive\Documents\GitHub\Baat-Cheet\BaatCheet\BaatCheet\obj\Debug\BaatCheet.csproj.CoreCompileInputs.cache
 C:\Users\baqir\OneDrive\Documents\GitHub\Baat-Cheet\BaatCheet\BaatCheet\obj\Debug\BaatCheet.exe
 C:\Users\baqir\OneDrive\Documents\GitHub\Baat-Cheet\BaatCheet\BaatCheet\obj\Debug\BaatCheet.pdb
+C:\Users\HP\OneDrive\Desktop\Sem 4\FundOfSoftEng\Baat-Cheet\BaatCheet\BaatCheet\obj\Debug\BaatCheet.LoginForm.resources
+C:\Users\baqir\OneDrive\Documents\GitHub\Baat-Cheet\BaatCheet\BaatCheet\obj\Debug\BaatCheet.LoginForm.resources
+C:\Users\baqir\OneDrive\Documents\GitHub\Baat-Cheet\BaatCheet\BaatCheet\obj\Debug\BaatCheet.Home.resources
+<<<<<<< Updated upstream
+C:\Users\HP\OneDrive\Desktop\Sem 4\FundOfSoftEng\Baat-Cheet\BaatCheet\BaatCheet\obj\Debug\BaatCheet.Home.resources
+=======
+>>>>>>> Stashed changes
+C:\Users\hp\Downloads\Baat-Cheet\BaatCheet\BaatCheet\obj\Debug\BaatCheet.csproj.AssemblyReference.cache
+C:\Users\hp\Downloads\Baat-Cheet\BaatCheet\BaatCheet\obj\Debug\BaatCheet.BaatCheet.resources
+C:\Users\hp\Downloads\Baat-Cheet\BaatCheet\BaatCheet\obj\Debug\BaatCheet.LoginForm.resources
+C:\Users\hp\Downloads\Baat-Cheet\BaatCheet\BaatCheet\obj\Debug\BaatCheet.Properties.Resources.resources
+C:\Users\hp\Downloads\Baat-Cheet\BaatCheet\BaatCheet\obj\Debug\BaatCheet.csproj.GenerateResource.cache
+C:\Users\hp\Downloads\Baat-Cheet\BaatCheet\BaatCheet\obj\Debug\BaatCheet.exe
+C:\Users\hp\Downloads\Baat-Cheet\BaatCheet\BaatCheet\obj\Debug\BaatCheet.pdb
+C:\Users\hp\Downloads\Baat-Cheet\BaatCheet\BaatCheet\bin\Debug\BaatCheet.exe.config
+C:\Users\hp\Downloads\Baat-Cheet\BaatCheet\BaatCheet\bin\Debug\BaatCheet.exe
+C:\Users\hp\Downloads\Baat-Cheet\BaatCheet\BaatCheet\bin\Debug\BaatCheet.pdb
+C:\Users\hp\Downloads\Baat-Cheet\BaatCheet\BaatCheet\obj\Debug\BaatCheet.Home.resources
+C:\Users\hp\Downloads\Baat-Cheet\BaatCheet\BaatCheet\obj\Debug\BaatCheet.csproj.CoreCompileInputs.cache
