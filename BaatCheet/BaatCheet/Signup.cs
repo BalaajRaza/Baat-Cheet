@@ -1,70 +1,4 @@
-﻿//using System;
-//using System.Drawing;
-//using System.Drawing.Drawing2D;
-//using System.Windows.Forms;
-
-//namespace BaatCheet
-//{
-//    public partial class BaatCheet : Form
-//    {
-//        public BaatCheet()
-//        {
-//            InitializeComponent();
-//            this.DoubleBuffered = true; // Reduce flickering
-//        }
-
-//        protected override void OnPaint(PaintEventArgs e)
-//        {
-//            base.OnPaint(e);
-
-//            Graphics g = e.Graphics;
-//            g.SmoothingMode = SmoothingMode.AntiAlias;
-
-//            // Define rounded rectangle dimensions
-//            int width = 300, height = 400, radius = 30;
-//            //int x = (this.ClientSize.Width - width) / 2;
-//            int x = 400;
-//            int y = 160; // Adjusted position
-
-//            using (GraphicsPath path = CreateRoundedRectangle(x, y, width, height, radius))
-//            using (Brush fillBrush = new SolidBrush(Color.FromArgb(230, 230, 230)))
-//            using (Pen borderPen = new Pen(Color.Gray, 2))
-//            {
-//                g.FillPath(fillBrush, path);
-//                g.DrawPath(borderPen, path);
-//            }
-//        }
-
-//        private GraphicsPath CreateRoundedRectangle(int x, int y, int width, int height, int radius)
-//        {
-//            GraphicsPath path = new GraphicsPath();
-
-//            path.AddArc(x, y, radius, radius, 180, 90);
-//            path.AddArc(x + width - radius, y, radius, radius, 270, 90);
-//            path.AddArc(x + width - radius, y + height - radius, radius, radius, 0, 90);
-//            path.AddArc(x, y + height - radius, radius, radius, 90, 90);
-//            path.CloseFigure();
-
-//            return path;
-//        }
-
-//        private void textBox1_TextChanged(object sender, EventArgs e)
-//        {
-//            // Custom behavior can be added here if needed
-//        }
-
-//        private void label1_Click(object sender, EventArgs e)
-//        {
-
-//        }
-//    }
-//}
-
-
-
-
-
-using System;
+﻿using System;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
@@ -195,6 +129,19 @@ namespace BaatCheet
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {
+            //LoginForm loginForm = new LoginForm(); // Create LoginForm instance
+            //loginForm.Show(); // Show Login Page
+            //this.Close(); // Hide Signup Page
+            if (Application.OpenForms["LoginForm"] == null)
+            {
+                LoginForm loginForm = new LoginForm();
+                loginForm.Show();
+                this.Hide();
+            }
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
         {
 
         }
